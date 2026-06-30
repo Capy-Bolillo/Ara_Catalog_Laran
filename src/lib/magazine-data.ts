@@ -7,9 +7,11 @@ import img6 from '@/assets/catalogo/6.png'
 import img7 from '@/assets/catalogo/7.png'
 import img8 from '@/assets/catalogo/8.png'
 import img9 from '@/assets/catalogo/9.png'
-import img10 from '@/assets/catalogo/10.jpeg'
+import img10 from '@/assets/catalogo/10.png'
 import img11 from '@/assets/catalogo/11.png'
 import img12 from '@/assets/catalogo/12.png'
+import img13 from '@/assets/catalogo/13.png'
+import img14 from '@/assets/catalogo/14.png'
 
 export type MagazinePage = {
   id: number
@@ -105,9 +107,23 @@ export const pages: MagazinePage[] = [
   },
   {
     id: 12,
+    label: 'Pág. 12',
+    kind: 'content',
+    src: img12,
+    prompt: 'Página 12 del catálogo.',
+  },
+  {
+    id: 13,
+    label: 'Pág. 13',
+    kind: 'content',
+    src: img13,
+    prompt: 'Página 13 del catálogo.',
+  },
+  {
+    id: 14,
     label: 'Cierre',
     kind: 'back',
-    src: img12,
+    src: img14,
     prompt: 'Cierre del catálogo Laran.',
   },
 ]
